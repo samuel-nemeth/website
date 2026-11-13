@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Samuel R. Nemeth"
+   site-url: https://www.samuelnemeth.com
+  page-navigation: true
+  back-to-top-navigation: true
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    left:
+      - text: About
+        href: about.qmd
+      - text: CV
+        href: cv.qmd
+      - text: Research
+        href: research.qmd
+      - text: Teaching
+        href: teaching.qmd
+    right:
+      - icon: github
+        href: https://github.com/samuel-nemeth
+        aria-label: GitHub
+      - icon: envelope
+        href: nemeths@purdue.edu
+        aria-label: Email
+  page-footer:
+    left: "Samuel R. Nemeth, Purdue University"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - theme.scss
+    toc: true
+    toc-title: On this page
+    toc-location: right
+    code-copy: true
+
