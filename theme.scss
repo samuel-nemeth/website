@@ -1,0 +1,36 @@
+/*-- scss:defaults --*/
+
+// Change these four colors to restyle the whole site.
+$brand-dark:    Black;
+$brand-accent: #143755;
+$brand-light:  #2E5E4E;
+$brand-soft:   #F5F4FB;
+
+$primary: $brand-dark;
+$danger:  $brand-accent;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap");
+$web-font-path: false;
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+$line-height-base: 1.6;
+$headings-font-weight: 600;
+$headings-color: $brand-dark;
+
+$link-color: $brand-dark;
+$link-hover-color: $brand-accent;
+
+$navbar-bg: $brand-light;
+$navbar-fg: $brand-dark;
+$navbar-hl: #000000;
+
+$code-block-bg: $brand-soft;
+$code-block-border-left: $brand-dark;
+
+/*-- scss:rules --*/
+
+.profile-photo {
+  border-radius: 50%;
+  max-width: 220px;
+}
+
+.pub-list li { margin-bottom: 0.75rem; }
